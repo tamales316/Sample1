@@ -1,0 +1,73 @@
+html {
+  background-color: #ffffff;
+}
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #fc8d8d;
+  padding: 30 30px 30px 30px;
+  border: 3px solid rgb(0, 0, 0);
+} 
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1b2538;/*ほかの背景色*/
+}
+li {
+  float: right;/*右側と真ん中*/
+  border-right: 1px solid #bbbbbb;/*区切りの色*/
+}
+li:last-child {/*横並び*/
+  border-right: 1px solid #bbbbbb;/*区切りの色*/;
+}
+li a {/*文字設定*/
+  display: block;
+  color: white;/*文字の色*/
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover:not(.menu) {
+  background-color: #a9bce2;/*カーソルあわせた背景色*/
+}
+.menu {
+  background-color: #da3c41; /*選択中の背景色*/
+}
+#hedda {
+  height:150px;
+  background-color:#fddcff;
+  text-align: center;
+  font-size: 30px;
+  line-height: 150px;
+}
+#main { 
+  width: 490px;
+  min-height:500px;
+  height:auto;
+  background-color:#ffffff;
+  margin-top:10px;
+  text-align: center;
+  font-size: 30px;
+  line-height: 500px;
+}
+#side {
+  width:100px;
+  min-height:500px;
+  height:auto ;
+  background-color:#ffffff;
+  float:right;
+  margin-top:10px;
+  text-align: center;
+  font-size: 20px;
+}
+#hudda { 
+  height:100px;
+  background-color:#a7a7a7;
+  margin-top:10px;
+  text-align: center;
+  font-size: 30px;
+  line-height: 100px;
+} 
